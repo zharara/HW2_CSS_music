@@ -1,0 +1,84 @@
+.indexBody {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url('images/disks.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 30px;
+  text-align: center;
+  background: deepskyblue;
+  color: white;
+}
+
+.formDiv {
+  padding: 20px;
+  text-align: center;
+  height: 350px;
+}
+
+#searchInput{
+  margin: 20px;
+  height: 30px;
+  width: max-content;
+  text-align: center;
+  color: white;
+}
+
+#searchButton{
+  background-color: coral;
+  color:white;
+  height:40px;
+  width:120px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* CSS for results.html */
+.resultsBody{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url('images/guitar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CSS for song.html */
+
+.songRow {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+.imgDiv {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  }
+
+  .imgcontent {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-family: ui-sans-serif;
+  font-size: 30px;
+  }
+
+  .innerDiv{
+  padding: 20px;
+  border:1px solid;
+  border-color:grey;
+  height:500px;
+  }

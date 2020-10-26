@@ -4,20 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Enjoy Music!</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-  <div>
-    <h1>Enjoy thousands of lovely music songs!</h1>
-  </div>
-  <div>
-    <form action="results.html" method="GET">
-      <input type="text" placeholder="Search song titles..." name="songTitle" /><br>
-      <input type="submit" value="Search" />
-    </form>
+<body class="indexBody">
+  <div class="row">
+    <div>
+      <h1 class="title">Enjoy thousands of lovely music songs!</h1>
+    </div>
+    <div class="formDiv">
+      <form action="results.html" method="GET">
+        <input id="searchInput" type="text" placeholder="Search song titles..." name="songTitle" /><br>
+        <input id="searchButton" type="submit" value="Search" />
+      </form>
+    </div>
   </div>
   <div class="footer">
-    <h2>Music&copy;Zakaria Harara</h2>
+    <h2>Music &copy; Zakaria Harara</h2>
   </div>
 </body>
 
