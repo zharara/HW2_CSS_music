@@ -1,84 +1,140 @@
 .indexBody {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+}
+
+.indexDiv {
+  display: flex;
+  flex-direction: column;
   background-image: url('images/disks.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.row {
-  display: flex;
-  flex-direction: column;
-}
-
 .title {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   background: deepskyblue;
   color: white;
 }
 
 .formDiv {
-  padding: 20px;
+  padding: 20px 40px;
   text-align: center;
   height: 350px;
 }
 
-#searchInput{
+#searchInput {
   margin: 20px;
-  height: 30px;
-  width: max-content;
+  height: 40px;
+  width: 600px;
   text-align: center;
   color: white;
 }
 
-#searchButton{
+#searchButton {
   background-color: coral;
-  color:white;
-  height:40px;
-  width:120px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 10%;
 }
 
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background-image: url("images/guitar_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3 {
+  color: whitesmoke;
 }
 
 /* CSS for results.html */
-.resultsBody{
+#resultsTitle {
+  margin-left: 25px;
+  padding-top: 25px;
+}
+
+.resultsBody {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+}
+
+.resultsDiv {
   background-image: url('images/guitar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 25px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+  border: 1px solid;
+  max-width: 500px;
 }
 
 /* CSS for song.html */
 
 .songRow {
   display: flex;
-  flex-wrap: wrap;
-  }
+}
 
 .imgDiv {
   flex: 50%;
   background-color: #f1f1f1;
   padding: 20px;
-  }
+  max-width: 50%;
+}
 
-  .imgcontent {
+.infoDiv {
   flex: 50%;
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
   font-family: ui-sans-serif;
   font-size: 30px;
-  }
 
-  .innerDiv{
+}
+
+.innerDiv {
   padding: 20px;
-  border:1px solid;
-  border-color:grey;
-  height:500px;
-  }
+  border: 1px solid;
+  background-color: beige;
+  border-color: grey;
+  height: 500px;
+  margin-top: 15%;
+}
+
+span {
+  font-weight: bold;
+}
